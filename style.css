@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+}
+
+body{
+     padding: 1em;
+     background-image: url('backgroud.jpg');
+
+h1,h2,h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    margin: 1em auto 3em auto;
+    width: min(1000px 100%);
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 2em;
+}
+
+nav li:first-child{
+    margin-right: auto;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    text-decoration: solid;
+    
+}
+nav a:first-child{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in 0s;
+    act
+}
+nav a{
+    text-decoration: none;
+    color: rgb(3, 48, 73);
+    transition: all 0.3s ease-in 0s;
+    act
+}
+
+nav a:hover{
+    color: aqua;
+}
+
+header,section{
+    margin: 2em auto;
+    width: min(75em, 100%);
+    background-color: rgb(73, 103, 93);
+    border-radius: 1em;
+    padding: min(2em, 15%);
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3em;
+}
+
+header img{
+    max-width: 100%;
+    border-radius: 1em;
+    object-fit: cover;
+    height: 200px;
+}
+.text-container{
+    flex:0 1 34em ;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(37, 104, 176);
+    padding: .75em 1.25em;
+    border-radius: 4em;
+    font-weight: 600;
+}
+
+.button-2{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(18, 87, 146);
+    background-color: rgb(255, 255, 255);
+    padding: .75em 1.25em;
+    border-radius: 4em;
+    font-weight: 600;
+}
+
+.button:hover{
+    background-color: rgb(10, 45, 8);
+    color: rgb(76, 122, 91);
+}
+
+.button-2:hover{
+    background-color: rgb(76, 122, 91);
+    color: rgb(10, 45, 8);;
+   
+}
+
+section{
+    padding: 3em ,min(2em, 15%);
+    background-color: rgb(20, 49, 39);
+    text-align: center;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+section p{
+    margin-top: 1em;
+    font-size: 1.25rem;
+}
+
+.grid-container{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "img-1 img-1 img-2 img-3"
+    "img-1 img-1 img-2 img-4 ";
+    gap: 1em;
+}
+
+.grid-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: .5em;
+    transition: all 100ms ease 0s;
+}
+
+.grid-container img:hover{
+    scale: 1.05;
+}
+
+.insta{
+    text-decoration: none;
+    color: rgb(254, 254, 254);
+    background-color: rgb(238, 10, 63);
+    padding: .75em 1.25em;
+    border-radius: 4em;
+    font-weight: 600;
+    transition: all 0.9s ease-in-out 0s;
+}
+
+.insta:hover{
+    background-color: rgb(28, 180, 172);
+}
+
+@media 75 {
+    
+}
